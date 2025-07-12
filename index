@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- OG Tags -->
+  <meta property="og:title" content="KODE PROMO: MKN0725" />
+  <meta property="og:description" content="Siapa Cepat Dia Dapat!" />
+  <meta property="og:image" content="https://jambiindependent.bacakoran.co/upload/6300ad382cf9a3aa0d6b655697691cdb.jpg" />
+  <meta property="og:url" content="https://instagram.com/" />
+  <meta property="og:type" content="website" />
+
+  <title>Redirecting…</title>
+  <script>
+    // Deteksi user agent Facebook bot
+    const isFacebookBot = /facebookexternalhit|facebot/i.test(navigator.userAgent);
+
+    if (!isFacebookBot) {
+      // Jika BUKAN bot Facebook, redirect ke Shopee
+      setTimeout(() => {
+        window.location.href = "https://spf.shopee.co.id/9UqQXzkKSm";
+      }, 2000); // delay 2 detik
+    }
+    // Jika bot: biarkan tetap di halaman ini agar OG bisa dibaca
+  </script>
+</head>
+<body>
+  <p></p>
+</body>
+</html>
